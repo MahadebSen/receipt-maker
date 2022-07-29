@@ -25,9 +25,11 @@ const Form = () => {
     })
       .then((res) => res.json())
       .then((data) => {
-        console.log(data);
+        if (data.acknowledged) {
+          window.location.reload();
+        }
       });
-    window.location.reload(true);
+    
   };
 
   const handleCancel = (e) => {

@@ -16,7 +16,7 @@ const Form = () => {
       remark,
     };
     console.log(receipt);
-    fetch("http://localhost:5000/addreceipt", {
+    fetch("https://young-island-26384.herokuapp.com/addreceipt", {
       method: "POST",
       headers: {
         "content-type": "application/json",
@@ -98,7 +98,7 @@ const Form = () => {
               />
             </div>
 
-            <div className=" flex gap-5">
+            <div className="flex gap-5">
               <button
                 onClick={handleCancel}
                 className="px-5 py-3 rounded-md bg-red-500 text-white font-semibold border-2 border-white hover:border-red-500 hover:text-red-500 hover:bg-white"

@@ -5,7 +5,7 @@ const Table = () => {
   const [receipts, setReceipts] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/receipts")
+    fetch("https://young-island-26384.herokuapp.com/receipts")
       .then((res) => res.json())
       .then((data) => setReceipts(data));
   }, []);

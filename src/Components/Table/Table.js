@@ -11,7 +11,7 @@ const Table = () => {
   }, []);
 
   return (
-    <div className="flex justify-center">
+    <div className="flex justify-center mb-10">
       <table className="border-collapse border border-slate-500">
         <thead>
           <tr>

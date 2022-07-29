@@ -1,0 +1,20 @@
+[
+  {
+    "date": "14/09/1999",
+    "amount": "25000",
+    "mode": "upi",
+    "remark": "Lorem ipsum dolor sit."
+  },
+  {
+    "date": "12/09/1999",
+    "amount": "2000",
+    "mode": "cash",
+    "remark": "Lorem ipsum sit."
+  },
+  {
+    "date": "21/09/1999",
+    "amount": "5000",
+    "mode": "upi",
+    "remark": "ipsum dolor sit."
+  }
+]
